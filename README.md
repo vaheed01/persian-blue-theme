@@ -18,7 +18,7 @@ Tags: Blog
 */
 
 
-## Installation
+## Instruction
  Download this and move it to your `wp-content/themes` folder. 
  
  That's it. enjoy !
