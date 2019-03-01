@@ -42,7 +42,7 @@ function page_description()
 	return strip_tags($excerpt);
 }
 
-if(isset($_GET["mview"]) && $_GET["mview"]=="on")
+if(  get_query_var( "mview" , false)  )
 {
 	
 	add_filter("post_link","add_mview_param");
@@ -50,12 +50,12 @@ if(isset($_GET["mview"]) && $_GET["mview"]=="on")
 	add_filter("attachment_link","add_mview_param");
 	add_filter("post_type_link","add_mview_param");
 
-	
 }
 
 function is_app_request()
 {
-	return isset($_GET["mview"]) && $_GET["mview"]=="on";
+	return get_query_var( "mview" , false);
+	//return isset($_GET["mview"]) && $_GET["mview"]=="on";
 }
 
 add_theme_support( 'customize-selective-refresh-widgets' );
@@ -100,5 +100,15 @@ add_theme_support( 'post-thumbnails' );
 
  }
 add_action( 'widgets_init', 'blogeen_widgets_init' );
+
+
+function zanganli_rewrite(){
+	
+    global $wp;
+	$wp->add_query_var( 'mview' );
+	add_rewrite_rule( 'mview/(.*?)', "$matches[1]?mview=on", 'top' );
+}
+
+add_action( 'init', 'zanganli_rewrite' );
 
 ?>
