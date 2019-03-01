@@ -1,7 +1,8 @@
 # Zanganli-Theme
-Zanganli is free lightweight and responsive wordpress theme
+Zanganli is free , lightweight and responsive wordpress theme
 
 **Note: It's in Persian language**
+
 /*
 
 Author: Vahid Rafi-E 
