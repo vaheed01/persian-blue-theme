@@ -9,10 +9,10 @@ Tags: Blog
 
 @font-face {
   font-family: 'Vazir';
-  src: url('/wp-content/themes/zanganli/fonts/Vazir.eot');
-  src: url('/wp-content/themes/zanganli/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
-       url('/wp-content/themes/zanganli/fonts/Vazir.woff') format('woff'),
-       url('/wp-content/themes/zanganli/fonts/Vazir.ttf') format('truetype');
+  src: url('fonts/Vazir.eot');
+  src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Vazir.woff') format('woff'),
+       url('fonts/Vazir.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
