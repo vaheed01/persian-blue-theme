@@ -1,5 +1,5 @@
-# Zanganli-Theme
-Zanganli is a free , lightweight and responsive wordpress theme
+# persian-blue 
+persian-blue is a free , lightweight and responsive wordpress theme
 
 **Note: It's in Persian language**
 
