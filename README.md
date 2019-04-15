@@ -24,7 +24,7 @@ Tags: Blog
  That's it. enjoy !
 
 
-**PS** : _SEO Setting_
+###### PS : _SEO Setting_
 
 you can change meta keywords and meta description from functions.php . Just open it , They'are obvious .
 **Note** that this keywords and description are for home page.
