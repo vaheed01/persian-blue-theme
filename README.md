@@ -25,6 +25,7 @@ Tags: Blog
 
 
 **PS** : _SEO Setting_
+
 you can change meta keywords and meta description from functions.php . Just open it , They'are obvious .
 **Note** that this keywords and description are for home page.
  For signle pages tags will be used as meta kewords and some of post content as meta description.
